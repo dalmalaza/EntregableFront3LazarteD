@@ -38,7 +38,7 @@ export default function Item(props) {
       <img src={props.imagen} alt= 'puma'></img>
       <p>{props.descripcion}</p>
       <h5>En stock: {stockActu}</h5>
-      <button  Out={buttonOut} onClick={comprar}>{buttonNombre}</button>
+      <button  disabled={buttonOut} onClick={comprar}>{buttonNombre}</button>
     </div>
   )
 }
