@@ -13,9 +13,9 @@ import React,{useState} from 'react'
 export default function Item(props) {
    
   const [value, setValue] = useState(props.stock)
-  let stockActu=""
-  let buttonNombre="COMPRAR"
-  let buttonOut = false
+  var stockActu=""
+  var buttonNombre="COMPRAR"
+  var buttonOut = false
 
   if (!value>0){
   stockActu=<span>{`${"Sold Out"}`}</span>
