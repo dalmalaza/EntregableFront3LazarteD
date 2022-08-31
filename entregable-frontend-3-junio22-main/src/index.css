@@ -63,6 +63,20 @@ header p span {
   border-radius: 3px;
 }
 .producto button{
+  cursor: pointer;
   padding: 5px;
   text-transform: uppercase;
+  background: rgb(236, 93, 229);
+  border: none;
+  border-radius: 15px;
+padding: 10px 20px;
+}
+.producto button out {
+    padding: 10px;
+    background: rgb(206, 203, 203) ;
+    border: none;
+    cursor: not-allowed;
+    font-size: 15px;
+    color: rgb(122, 113, 100);
+    font-weight: bold;
 }
