@@ -71,7 +71,7 @@ header p span {
   border-radius: 15px;
 padding: 10px 20px;
 }
-.producto button out {
+.producto button: disabled {
     padding: 10px;
     background: rgb(206, 203, 203) ;
     border: none;
